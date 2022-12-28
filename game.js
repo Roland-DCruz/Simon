@@ -23,7 +23,7 @@ function nextSequence() {
 
 // to start the game on mobile
 $(document).ready(function () {
-    $(".container").click(function () {
+    $(".body").click(function () {
         if (level==0){
             nextSequence();
         }     
