@@ -30,6 +30,7 @@ $(document).ready(function () {
     });
 });
 
+
 // saves the user clicked tile
 
 $(document).ready(function () {
@@ -98,7 +99,6 @@ function checkAnswer(currentLevel){
     if (userClickedPattern[currentLevel] == gamePattern[currentLevel]){
         console.log("success");
         if ((currentLevel + 1) == gamePattern.length){
-            console.log("------------------***********************-----------------")
             userClickedPattern =[];
             setTimeout(nextSequence, 1000);            
         }
@@ -124,5 +124,3 @@ function startOver(){
     gamePattern =[];
     userClickedPattern =[];
 }
-
-
