@@ -26,6 +26,13 @@ body {
   border-radius: 20%;
 }
 
+.start-btn{
+  width: 100px;
+  height: 50px;
+  border-radius: 10%;
+  
+}
+
 .game-over {
   background-color: red;
   opacity: 0.8;
